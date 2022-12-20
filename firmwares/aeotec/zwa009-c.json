@@ -1,0 +1,25 @@
+{
+	// Each "devices" entry defines a single device for which this file
+	// contains the available firmware updates.
+	"devices": [
+		{
+			"brand": "Aeotec Ltd.",
+			"model": "aërQ Temperature and Humidity Sensor v1.0",
+			"manufacturerId": "0x0371",
+			"productType": "0x0002",
+			"productId": "0x0009"
+
+
+		}
+	],
+
+	// Each entry in "upgrades" defines a single available firmware update
+	"upgrades": [
+		{
+			"version": "12.01",
+			"changelog": "* Lower parameter 4 setting to 30seconds\n* Lower battery threshold % reporting\n* Change threshold checks from 15 minutes to 4 minutes.",
+			"url": "https://aeotec.freshdesk.com/helpdesk/attachments/6138025991",
+			"integrity": "sha256:21f2d94e00eb687e6556c5951bde62b0fd27ee54b4fe7289f3064c0af126422b"
+		}
+	]
+}
